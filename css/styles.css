@@ -39,7 +39,7 @@ img {
 
 
 /* SITE-HEADER */
-.site-header-top-img {
+.site-header__top-img {
     width: 1366px;
     height: 156px;
     margin-bottom: 76px;
@@ -47,20 +47,20 @@ img {
 
 
 /* JOBS */
-.jobs-img {
+.jobs__img {
     width: 88px;
     height: 88px;
     margin-right: 24px;
 }
 
-.jobs-list {
+.jobs__list {
     list-style: none;
     margin: 0;
     margin-bottom: 120px;
     padding: 0;
 }
 
-.jobs-item {
+.jobs__item {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,24 +71,24 @@ img {
     border-left: 5px solid #5ca5a5;
 }
 
-.jobs-item:not(:last-child) {
+.jobs__item:not(:last-child) {
     margin-bottom: 24px;
 }
 
-.jobs-item-top {
+.jobs__item-top {
     display: flex;
     align-items: center;
 }
 
-.jobs-main-content {
+.jobs__main-content {
     display: flex;
 }
 
-.jobs-item-top {
+.jobs__item-top {
     margin-bottom: 8px;
 }
 
-.jobs-subtitle {
+.jobs__subtitle {
     margin: 0;
     margin-right: 16px;
     font-weight: 700;
@@ -97,7 +97,7 @@ img {
     line-height: 15px;
 }
 
-.jobs-feature {
+.jobs__feature {
     padding: 6px 8px 4px 8px;
     font-size: 11px;
     font-weight: 700;
@@ -108,15 +108,15 @@ img {
     border-radius: 12px;
 }
 
-.jobs-feature:not(:last-child) {
+.jobs__feature:not(:last-child) {
     margin-right: 8px;
 }
 
-.jobs-feature-black {
+.jobs__feature--black {
     background-color: #2B3939;
 }
 
-.jobs-title {
+.jobs__title {
     display: inline-block;
     margin: 0;
     margin-bottom: 8px;
@@ -127,20 +127,20 @@ img {
     color: #2B3939;
 }
 
-.jobs-title:hover {
+.jobs__title:hover {
     opacity: 0.8;
 }
 
-.jobs-title:active {
+.jobs__title:active {
     opacity: 0.6;
 }
 
-.jobs-time {
+.jobs__time {
     display: flex;
     align-items: center;
 }
 
-.jobs-time span {
+.jobs__time span {
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
@@ -148,7 +148,7 @@ img {
     color: #7C8F8F;
 }
 
-.jobs-time span:not(:last-child) {
+.jobs__time span:not(:last-child) {
     margin-right: 16px;
 }
 
@@ -160,14 +160,14 @@ img {
     border-radius: 50%;
 }
 
-.jobs-skills {
+.jobs__skills {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.jobs-skill {
+.jobs__skill {
     padding: 4px 8px;
     font-weight: 700;
     font-size: 13px;
@@ -178,6 +178,6 @@ img {
     color: #5ca5a5;
 }
 
-.jobs-skill:not(:last-child) {
+.jobs__skill:not(:last-child) {
     margin-right: 16px;
 }
