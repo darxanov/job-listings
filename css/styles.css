@@ -134,9 +134,12 @@ img {
     font-size: 18px;
     line-height: 24px;
     color: #2B3939;
+    transition: color 0.4s ease,
+        opacity 0.4s ease;
 }
 
 .jobs__title:hover {
+    color: #5ca5a5;
     opacity: 0.8;
 }
 
