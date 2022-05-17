@@ -179,15 +179,29 @@ img {
     padding: 0;
 }
 
-.jobs__skill {
+.jobs__skill button {
     padding: 4px 8px;
     font-weight: 700;
     font-size: 13px;
     line-height: 24px;
     letter-spacing: -0.1px;
     background-color: #eff6f6;
+    border: 0;
     border-radius: 4px;
     color: #5ca5a5;
+    cursor: pointer;
+    transition: background-color 0.4s ease,
+        opacity 0.4s ease,
+        color 0.4s ease;
+}
+
+.jobs__skill button:hover {
+    background-color: #5ca5a5;
+    color: #fff;
+}
+
+.jobs__skill button:active {
+    opacity: 0.6;
 }
 
 .jobs__skill:not(:last-child) {
